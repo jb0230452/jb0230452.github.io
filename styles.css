@@ -12,7 +12,7 @@ a {
     color: rgb(156, 231, 4);
 }
 
-a:hover{
+a:hover {
     font-size: large;
     color: white;
 }
@@ -39,35 +39,35 @@ footer {
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);        */
-        display: grid;
+    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     max-width: 80%;
     margin: 50px auto;
     grid-template-areas:
-    "n h h h h h h"
-    ". p1 p1 p1 p1 . ."
-    "p2 p2 . . . . ."
-    ". . . . . . ."
-    "p3 p3 . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    "f f f f f f f"
+        "n h h h h h h"
+        ". p1 p1 p1 p1 . ."
+        "p2 p2 . . . . ."
+        ". . . . . . ."
+        "p3 p3 . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . ."
+        "f f f f f f f"
 }
 
-#indexNav{
+#indexNav {
     grid-area: n;
     display: flex;
-    }
+}
 
 .aboutme {
     font-size: 1.4em;
@@ -76,19 +76,19 @@ footer {
     margin: 0px auto 50px auto;
 }
 
-.p1{
+.p1 {
     grid-area: p1;
 }
 
-.p2{
+.p2 {
     grid-area: p2;
 }
 
-.p3{
+.p3 {
     grid-area: p3;
 }
 
-#indexFooter{
+#indexFooter {
     grid-area: f;
     margin-bottom: 0px;
 }
@@ -102,17 +102,22 @@ footer {
 }
 
 @media screen and (max-width: 793px) {
-    .indexgridcontainer{
+    .indexgridcontainer {
         display: flex;
         flex-wrap: wrap;
         min-width: 367px;
     }
+
+    .aboutme {
+        margin-top: 30px;
+    }
 }
+
 /*  availabilityTable.html  */
 
 #tablecontainer {
     overflow: auto;
-    }
+}
 
 table {
 
