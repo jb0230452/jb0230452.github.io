@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Justin Buckner -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Jacques+Francois+Shadow&family=Moul&family=Permanent+Marker&family=Smooch&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="availablilityTable.html">Availability</a></li>
+            <li><a href="contactMe.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <div class="formcontainer">
+        <form>
+            <fieldset>
+                <legend>Contact Info</legend>
+                <label for="fname">
+                    Name:
+                    <input id="fname" type="text" name="fname" autofocus required placeholder="First Name">
+                </label>
+                <label for="lname">
+                    Last Name:
+                    <input id="lname" type="text" name="lname" required placeholder="Last Name">
+                </label>
+                <label for="email">
+                    Email:
+                    <input id="email" type="text" name="email" required placeholder="Email"><br><br>
+                </label>
+                <p>Preferred time to be contacted:</p>
+                <label for="AM"></label>
+                AM
+                <input type="radio" id="AM" name="AM" value="AM"><br>
+                <label for="PM"></label>
+                PM
+                <input type="radio" id="PM" name="PM" value="PM"><br>
+            </fieldset>
+            <input class="submit" type="submit" value="submit">
+        </form>
+    </div>
+    <footer>Justin Buckner &copy;</footer>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+html {
+    background-image: url(darkLaptop.jpg);
+    filter: opacity(.9);
+    color: white;
+    font-family: "Atma", system-ui;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(156, 231, 4);
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: rgb(156, 231, 4)
+}
+
+footer {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/*  index.html  */
+
+.indexgridcontainer {
+    height: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+    "n h h"
+    "p1 p1 p1"
+    "p2 p2 p2"
+    "p3 p3 p3"
+    "f f f"
+}
+
+#indexNav{
+    grid-area: n;
+}
+
+.aboutme {
+    font-size: 1.4em;
+    grid-area: h;
+    padding-left: 5px;
+}
+
+.p1{
+    grid-area: p1;
+}
+
+.p2{
+    grid-area: p2;
+}
+
+.p3{
+    grid-area: p3;
+}
+
+#indexFooter{
+    grid-area: f;
+    margin-bottom: 0px;
+}
+
+.pindex {
+    font-size: 1.1em;
+    padding-left: 9px;
+}
+
+/*  availabilityTable.html  */
+
+#tablecontainer {
+    overflow: auto;
+}
+
+table {
+
+    border: 5px solid white;
+}
+
+th {
+    border: 4px solid white;
+
+
+}
+
+td {
+    border: 3px solid white;
+    height: 91.2333px;
+
+    vertical-align: top;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 14%;
+}
+
+/*  contactMe.html  */
+
+.formcontainer {
+    width: 75%;
+    margin: auto;
+}
